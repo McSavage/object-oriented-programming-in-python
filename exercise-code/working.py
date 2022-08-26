@@ -14,6 +14,10 @@ class Product:
     def value(self,val):
         self._x = val
     
+    @property
+    def y(self):
+        return self._y
+
     @y.setter
     def y(self,val):
         self._y = val
